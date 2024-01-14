@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    background-color: black ;
+    /* width:150px; */
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-color: black;
+    /* border: 2px solid green; */
+}
+
+.second{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width:70px;
+    background-color: black;
+    height:40px;
+    /* border:2px solid grey; */
+    /* background-color: grey; */
+    color: greenyellow;
+    font-size: 20px; font-weight: bold;
+
+
+}
+.minute{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    width:70px;
+    background-color: black;
+    height:40px;
+    /* border:2px solid grey; */
+    /* background-color: grey; */
+    color: greenyellow;
+    font-size: 20px; font-weight: bold;
+
+}
+.hour{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+        align-items: center;
+    width:70px;
+    height:40px;
+    /* border:2px solid grey; */
+    /* background-color: grey; */
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+        align-items: center;
+       
+}
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70px;
+    height:40px;
+    color: rgb(20, 22, 19);
+    background-color: rgb(83, 83, 83);
+    border-radius:10px;
+    margin:2px;
+    cursor: pointer;
+   }
+
+#clearimage{
+    width:30px;
+    height: 30px;
+}
+#playimage{
+    width:30px;
+    height: 30px;
+}
+#resetimage{
+    width:30px;
+    height: 30px;
+}
+.set:hover{
+    background-color: azure;
+}
